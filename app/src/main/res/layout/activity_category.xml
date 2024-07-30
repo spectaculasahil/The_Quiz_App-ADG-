@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_grad"
+    tools:context=".CategoryActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/categoryButton2"
+            android:layout_width="364dp"
+            android:layout_height="69dp"
+
+
+            android:layout_marginTop="16dp"
+            android:text="International Relations"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryButton1" />
+
+        <Button
+            android:id="@+id/categoryButton3"
+            android:layout_width="364dp"
+            android:layout_height="69dp"
+
+
+            android:layout_marginTop="16dp"
+            android:text="Sports"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryButton2" />
+
+        <Button
+            android:id="@+id/categoryButton4"
+            android:layout_width="364dp"
+            android:layout_height="69dp"
+
+
+            android:layout_marginTop="16dp"
+            android:text="Movies"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryButton3" />
+
+        <Button
+            android:id="@+id/categoryButton5"
+            android:layout_width="364dp"
+            android:layout_height="69dp"
+
+
+            android:layout_marginTop="16dp"
+            android:text="World History"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryButton4" />
+
+        <Button
+            android:id="@+id/categoryButton1"
+            android:layout_width="364dp"
+            android:layout_height="69dp"
+
+
+            android:layout_marginTop="272dp"
+            android:text="Geography"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/categoryTextView"
+            android:layout_width="372dp"
+            android:layout_height="111dp"
+
+            android:fontFamily="sans-serif-light"
+            android:text="Please Choose a Category to Continue"
+            android:textColor="#FDFDFD"
+            android:textSize="34dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/greetingTextView" />
+
+        <TextView
+            android:id="@+id/greetingTextView"
+            android:layout_width="372dp"
+            android:layout_height="111dp"
+
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
